@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="HRM Test Suite 2">
+	 <groups>
+    <run>
+      <include name="Sanity"  />
+      <exclude name="Regression"/>
+    </run>
+  </groups>
+
+  <test name="Login Test">
+    <classes>
+      <class name="testcases.LoginTest"/>
+      <class name="testcases.AdminTest"/>
+      <class name="testcases.MyInfoTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

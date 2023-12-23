@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="HRM Test Suite 0">
+  <test name="Login Test With XML Params">
+	<parameter name="username" value="Admin" />
+	<parameter name="password" value="admin123" />
+    <classes>
+      <class name="testcases.LoginTestParameterFomXml"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
